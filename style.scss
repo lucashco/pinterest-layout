@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'consolas';
+    background-color: rgb(227, 238, 250);
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 0 20px;
+
+    h1 {
+        margin: 50px 0 0;
+        padding: 0;
+
+        span {
+            background-color: #E6001A;
+            color: #fff;
+            padding: 5px 15px;
+            border-radius: 50%;
+            font-style: italic;
+        }
+    }
+
+    p {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+section {
+    max-width: 80%;
+    margin: 0 auto;
+    // column-count: 3;
+    column-width: 250px;
+
+    div {
+        background-color: #fff;
+        border-radius: 4px;
+        overflow: hidden;
+        margin-bottom: 20px;
+        box-shadow: 0 2px 6px rgba(50, 50, 90, 0.1);
+        break-inside: avoid-column;
+
+        img {
+            max-width: 100%;
+        }
+
+        p {
+            padding: 15px;
+            box-sizing: border-box;
+            color: #6b7c93;
+            font-size: 0.875em;
+            line-height: 1.4em;
+        }
+    }
+}
+
+footer {
+    margin-top: 50px;
+    padding: 10px 15px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    p{
+        font-size: 1.2em;
+        word-break: break-all;
+    }
+}
